@@ -96,7 +96,7 @@ export default function FilterDrawer({
               <motion.section
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.05, type: 'spring', stiffness: 300, damping: 28 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 28 }}
               >
                 <p className="text-[11px] font-bold tracking-widest text-app-sub uppercase mb-3">カテゴリ</p>
                 <div className="flex flex-wrap gap-2">
@@ -126,7 +126,7 @@ export default function FilterDrawer({
               <motion.section
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1, type: 'spring', stiffness: 300, damping: 28 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 28 }}
               >
                 <p className="text-[11px] font-bold tracking-widest text-app-sub uppercase mb-3">地域</p>
                 <div className="flex flex-col gap-4">
@@ -175,7 +175,7 @@ export default function FilterDrawer({
               <motion.section
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.15, type: 'spring', stiffness: 300, damping: 28 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 28 }}
               >
                 <p className="text-[11px] font-bold tracking-widest text-app-sub uppercase mb-3">タグ</p>
                 <div className="flex flex-wrap gap-2">
@@ -197,7 +197,7 @@ export default function FilterDrawer({
               <motion.section
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2, type: 'spring', stiffness: 300, damping: 28 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 28 }}
               >
                 <p className="text-[11px] font-bold tracking-widest text-app-sub uppercase mb-3">表示設定</p>
                 <label className="flex items-center gap-3 cursor-pointer group">

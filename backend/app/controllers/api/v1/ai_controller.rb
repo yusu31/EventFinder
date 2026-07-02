@@ -3,6 +3,8 @@
 module Api
   module V1
     class AiController < ApplicationController
+      before_action :authenticate_user!
+
       def chat
         message = params[:message].to_s.strip
         return render json: { error: "メッセージを入力してください" }, status: :bad_request if message.blank?

@@ -145,7 +145,8 @@ spots_data = [
     official_url: "https://hanamiyama.jp/",
     opening_hours: "日の出〜日没（開花時期のみ公開）",
     access: "JR福島駅東口からバス・タクシーで約20分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/20100418%E8%8A%B1%E8%A6%8B%E5%B1%B1%E5%85%AC%E5%9C%92%E5%85%A8%E6%99%AF.jpg/960px-20100418%E8%8A%B1%E8%A6%8B%E5%B1%B1%E5%85%AC%E5%9C%92%E5%85%A8%E6%99%AF.jpg"
   },
   {
     name: "飯坂温泉",
@@ -159,7 +160,8 @@ spots_data = [
     longitude: 140.4478,
     official_url: "https://iizaka.com/",
     access: "福島交通飯坂電車「飯坂温泉駅」下車すぐ",
-    admission_fee: "施設によって異なる"
+    admission_fee: "施設によって異なる",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Iizaka_Onsen_26-Aug-2018.jpg/960px-Iizaka_Onsen_26-Aug-2018.jpg"
   },
   {
     name: "土湯温泉",
@@ -173,7 +175,8 @@ spots_data = [
     longitude: 140.3328,
     official_url: "https://www.tsuchiyu.or.jp/",
     access: "JR福島駅西口からバスで約50分",
-    admission_fee: "施設によって異なる"
+    admission_fee: "施設によって異なる",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tsuchiyu_Onsen_100808.jpg/960px-Tsuchiyu_Onsen_100808.jpg"
   },
   {
     name: "福島市飯野町きつねむら",
@@ -217,7 +220,8 @@ spots_data = [
     official_url: "https://www.town.miharu.fukushima.jp/",
     opening_hours: "見頃期間：4月上旬〜中旬",
     access: "JR三春駅からタクシーで約10分",
-    admission_fee: "無料（見頃期間は入場料300円）"
+    admission_fee: "無料（見頃期間は入場料300円）",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Miharu_Miharu-Takizakura_Front_1.jpg/960px-Miharu_Miharu-Takizakura_Front_1.jpg"
   },
   {
     name: "あぶくま洞",
@@ -232,7 +236,8 @@ spots_data = [
     official_url: "https://abukumado.com/",
     opening_hours: "8:30〜17:00",
     access: "JR磐城守山駅からタクシーで約15分",
-    admission_fee: "大人1200円・小中学生600円"
+    admission_fee: "大人1200円・小中学生600円",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/1/14/Flowstones_and_Mushroom_Rocks_inside_Abukuma-do_Cave.JPG"
   },
   {
     name: "ビッグパレットふくしま",
@@ -262,7 +267,8 @@ spots_data = [
     official_url: "https://asaka-kunitsukomori.jp/",
     opening_hours: "参拝自由",
     access: "JR郡山駅から徒歩約15分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Asakakunitsuko-jinja%2C_haiden-1.jpg/960px-Asakakunitsuko-jinja%2C_haiden-1.jpg"
   },
   {
     name: "開成山公園",
@@ -276,7 +282,8 @@ spots_data = [
     longitude: 140.3788,
     opening_hours: "常時開放",
     access: "JR郡山駅から徒歩約20分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Kaiseizan_Park%2C_koriyama.Cto-75-31_c11b_7.jpg/960px-Kaiseizan_Park%2C_koriyama.Cto-75-31_c11b_7.jpg"
   },
 
   # 県南エリア（3件）
@@ -293,7 +300,8 @@ spots_data = [
     official_url: "https://www.city.shirakawa.fukushima.jp/",
     opening_hours: "常時開放",
     access: "JR白河駅からバスで約5分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shirakawa_nanko.jpg/960px-Shirakawa_nanko.jpg"
   },
   {
     name: "白河小峰城",
@@ -308,7 +316,8 @@ spots_data = [
     official_url: "https://www.city.shirakawa.fukushima.jp/",
     opening_hours: "9:00〜17:00",
     access: "JR白河駅から徒歩約5分",
-    admission_fee: "無料（天守内は有料）"
+    admission_fee: "無料（天守内は有料）",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Shirakawa_Komine_Castle_20100625-01.jpg"
   },
   {
     name: "那須甲子道の駅",
@@ -339,7 +348,8 @@ spots_data = [
     official_url: "https://www.tsurugajo.com/",
     opening_hours: "8:30〜17:00",
     access: "JR会津若松駅からバスで約15分",
-    admission_fee: "大人410円・高校生以下無料"
+    admission_fee: "大人410円・高校生以下無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aizuwakamatsu_Castle_03.jpg"
   },
   {
     name: "大内宿",
@@ -354,7 +364,8 @@ spots_data = [
     official_url: "https://www.ouchi-juku.com/",
     opening_hours: "常時開放（各店舗は10:00〜17:00頃）",
     access: "会津鉄道「湯野上温泉駅」からバスで約20分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Ouchi-juku%2C_Fukushima_01.jpg"
   },
   {
     name: "猪苗代湖",
@@ -368,7 +379,8 @@ spots_data = [
     longitude: 140.0950,
     official_url: "https://www.bandaisan.or.jp/",
     access: "JR猪苗代駅から車で約10分",
-    admission_fee: "無料（施設利用は別途）"
+    admission_fee: "無料（施設利用は別途）",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Lake_Inawashiro_view_from_Mt.Bandai.jpg/960px-Lake_Inawashiro_view_from_Mt.Bandai.jpg"
   },
   {
     name: "喜多方ラーメン館",
@@ -383,7 +395,8 @@ spots_data = [
     official_url: "https://www.kitakata-ramen.com/",
     opening_hours: "9:00〜18:00",
     access: "JR喜多方駅から徒歩約15分",
-    admission_fee: "無料（飲食は別途）"
+    admission_fee: "無料（飲食は別途）",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kitakata_ramen_by_macyu_in_Yamagata.jpg/960px-Kitakata_ramen_by_macyu_in_Yamagata.jpg"
   },
   {
     name: "磐梯山ゴールドラインと五色沼",
@@ -398,7 +411,8 @@ spots_data = [
     official_url: "https://www.urabandai-inf.com/",
     opening_hours: "散策自由",
     access: "JR猪苗代駅からバスで約40分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/c/cf/Autumn_colours_at_Goshikinuma_%2837146437564%29.jpg"
   },
   {
     name: "会津武家屋敷",
@@ -413,7 +427,8 @@ spots_data = [
     official_url: "https://www.bukeyashiki.com/",
     opening_hours: "8:30〜17:00（冬期短縮あり）",
     access: "JR会津若松駅からバスで約15分",
-    admission_fee: "大人850円・小中学生430円"
+    admission_fee: "大人850円・小中学生430円",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Aizu_Bukeyashiki_Garden.jpg/960px-Aizu_Bukeyashiki_Garden.jpg"
   },
   {
     name: "道の駅 会津柳津",
@@ -441,7 +456,8 @@ spots_data = [
     longitude: 140.0367,
     official_url: "https://www.urabandai-inf.com/",
     access: "JR猪苗代駅からバスで約50分",
-    admission_fee: "施設によって異なる"
+    admission_fee: "施設によって異なる",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lake-Onogawako-Urabandai-Japan.jpg"
   },
 
   # 南会津エリア（3件）
@@ -457,7 +473,8 @@ spots_data = [
     longitude: 139.8933,
     opening_hours: "常時開放（冬期は一部制限あり）",
     access: "会津鉄道「塔のへつり駅」から徒歩約5分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/%E5%A1%94%E3%81%AE%E3%81%B8%E3%81%A4%E3%82%8A.JPG/960px-%E5%A1%94%E3%81%AE%E3%81%B8%E3%81%A4%E3%82%8A.JPG"
   },
   {
     name: "湯野上温泉",
@@ -470,7 +487,8 @@ spots_data = [
     latitude: 37.2795,
     longitude: 139.8680,
     access: "会津鉄道「湯野上温泉駅」から徒歩すぐ",
-    admission_fee: "施設によって異なる"
+    admission_fee: "施設によって異なる",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yunokamionsen_Station.png/960px-Yunokamionsen_Station.png"
   },
   {
     name: "道の駅 番屋",
@@ -501,7 +519,8 @@ spots_data = [
     official_url: "https://www.hawaiians.co.jp/",
     opening_hours: "10:00〜18:00（季節により変動）",
     access: "JRいわき駅から無料シャトルバスで約30分",
-    admission_fee: "大人2750円〜（プランにより異なる）"
+    admission_fee: "大人2750円〜（プランにより異なる）",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Spa_Resort_Hawaiians_Water_Park._A.JPG/960px-Spa_Resort_Hawaiians_Water_Park._A.JPG"
   },
   {
     name: "いわき市石炭・化石館（ほるる）",
@@ -516,7 +535,8 @@ spots_data = [
     official_url: "https://www.sekitan-kaseki.jp/",
     opening_hours: "9:00〜17:00（火曜定休）",
     access: "JR湯本駅から徒歩約10分",
-    admission_fee: "大人660円・小中学生330円"
+    admission_fee: "大人660円・小中学生330円",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/%E3%81%84%E3%82%8F%E3%81%8D%E5%B8%82%E7%9F%B3%E7%82%AD%E5%8C%96%E7%9F%B3%E9%A4%A8.JPG/960px-%E3%81%84%E3%82%8F%E3%81%8D%E5%B8%82%E7%9F%B3%E7%82%AD%E5%8C%96%E7%9F%B3%E9%A4%A8.JPG"
   },
   {
     name: "アクアマリンふくしま",
@@ -531,7 +551,8 @@ spots_data = [
     official_url: "https://www.aquamarine.or.jp/",
     opening_hours: "9:00〜17:30",
     access: "JRいわき駅からバスで約40分",
-    admission_fee: "大人1850円・高校生1240円・小中学生930円"
+    admission_fee: "大人1850円・高校生1240円・小中学生930円",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aquamarine_Fukushima_20100124.JPG/960px-Aquamarine_Fukushima_20100124.JPG"
   },
   {
     name: "国営ひたち海浜公園（いわきからのアクセス）",
@@ -546,7 +567,8 @@ spots_data = [
     official_url: "https://hitachikaihin.jp/",
     opening_hours: "9:30〜17:00（季節により変動）",
     access: "JRいわき駅から常磐線で勝田駅へ、シャトルバスで約15分",
-    admission_fee: "大人450円・小中学生無料"
+    admission_fee: "大人450円・小中学生無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ferris_wheel_of_the_Hitachi_beach_park%2Chitachi-kaihin-koen%2Chitachinaka-city%2Cjapan.JPG/960px-Ferris_wheel_of_the_Hitachi_beach_park%2Chitachi-kaihin-koen%2Chitachinaka-city%2Cjapan.JPG"
   },
 
   # 相双エリア（2件）
@@ -563,7 +585,8 @@ spots_data = [
     official_url: "https://www.city.soma.fukushima.jp/",
     opening_hours: "常時開放",
     access: "JR相馬駅から車で約10分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/20091011%E6%9D%BE%E5%B7%9D%E6%B5%A6.jpg/960px-20091011%E6%9D%BE%E5%B7%9D%E6%B5%A6.jpg"
   },
   {
     name: "相馬野馬追の里 相馬中村神社",
@@ -578,21 +601,22 @@ spots_data = [
     official_url: "https://www.soma-nomaoi.jp/",
     opening_hours: "参拝自由",
     access: "JR相馬駅から徒歩約10分",
-    admission_fee: "無料"
+    admission_fee: "無料",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Somanakamura_shrine.jpg/960px-Somanakamura_shrine.jpg"
   }
 ]
 
 spots_data.each do |attrs|
-  Spot.find_or_create_by!(name: attrs[:name]) do |spot|
-    spot.assign_attributes(attrs)
-  end
+  spot = Spot.find_or_initialize_by(name: attrs[:name])
+  spot.assign_attributes(attrs)
+  spot.save!
 end
 
 puts "✅ スポットシードデータ投入完了: #{Spot.count}件の観光スポットが登録されました"
 
-# グルメスポット初期データ（20件）situation_tags・緯度経度付き
+# グルメスポット初期データ（27件）situation_tags・緯度経度付き
 restaurants_data = [
-  # 県北エリア（3件）
+  # 県北エリア（4件）
   {
     name: "山女や",
     description: "福島市の中心部にある郷土料理店。囲炉裏で焼く川魚料理が名物で、地元産の鮎・岩魚・山女魚を味わえます。",
@@ -603,7 +627,8 @@ restaurants_data = [
     budget: "3000〜4000円",
     latitude: 37.7604, longitude: 140.4737,
     situation_tags: [ "デートに", "個室あり" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg"
   },
   {
     name: "喜楽",
@@ -615,7 +640,8 @@ restaurants_data = [
     budget: "800〜1500円",
     latitude: 37.8081, longitude: 140.4478,
     situation_tags: [ "ランチ向け", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Japanese_Soba_Noodles_Tsuta.jpg"
   },
   {
     name: "カフェ杜",
@@ -627,7 +653,8 @@ restaurants_data = [
     budget: "500〜1000円",
     latitude: 37.7338, longitude: 140.4891,
     situation_tags: [ "子連れOK", "ランチ向け", "デートに" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cafe_Muji_Shinjuku_Store_Interior_2013.jpg"
   },
   {
     name: "アクアパッツァ福島",
@@ -639,7 +666,8 @@ restaurants_data = [
     budget: "1500〜4000円",
     latitude: 37.7590, longitude: 140.4720,
     situation_tags: [ "デートに", "ランチ向け" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/7/70/Spaghetti_alle_vongole.jpg"
   },
 
   # 県中エリア（5件）
@@ -653,7 +681,8 @@ restaurants_data = [
     budget: "5000〜10000円",
     latitude: 37.3980, longitude: 140.3860,
     situation_tags: [ "デートに", "個室あり" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/1/15/Salad_at_French_restaurant_in_Tokyo.jpg"
   },
   {
     name: "田村ラーメン 一心",
@@ -665,7 +694,8 @@ restaurants_data = [
     budget: "700〜1200円",
     latitude: 37.4000, longitude: 140.3800,
     situation_tags: [ "ランチ向け", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kitakata_ramen_by_macyu_in_Yamagata.jpg/960px-Kitakata_ramen_by_macyu_in_Yamagata.jpg"
   },
   {
     name: "三春亭",
@@ -677,7 +707,8 @@ restaurants_data = [
     budget: "1000〜2000円",
     latitude: 37.4380, longitude: 140.4797,
     situation_tags: [ "ランチ向け", "子連れOK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Japanese_Soba_Noodles_Tsuta.jpg"
   },
   {
     name: "焼肉 安積苑",
@@ -689,7 +720,8 @@ restaurants_data = [
     budget: "3000〜5000円",
     latitude: 37.3900, longitude: 140.3750,
     situation_tags: [ "子連れOK", "デートに" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/5/57/Yakiniku_001.jpg"
   },
   {
     name: "イタリアンカフェ ピアッツァ",
@@ -701,7 +733,8 @@ restaurants_data = [
     budget: "1500〜3000円",
     latitude: 37.3960, longitude: 140.3820,
     situation_tags: [ "ランチ向け", "デートに", "子連れOK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/7/70/Spaghetti_alle_vongole.jpg"
   },
 
   # 会津エリア（7件）
@@ -715,7 +748,8 @@ restaurants_data = [
     budget: "1500〜3000円",
     latitude: 37.4944, longitude: 139.9301,
     situation_tags: [ "ランチ向け", "子連れOK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg"
   },
   {
     name: "喜多方食堂 坂内",
@@ -727,7 +761,8 @@ restaurants_data = [
     budget: "700〜1000円",
     latitude: 37.6499, longitude: 139.8678,
     situation_tags: [ "ランチ向け", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kitakata_ramen_by_macyu_in_Yamagata.jpg/960px-Kitakata_ramen_by_macyu_in_Yamagata.jpg"
   },
   {
     name: "大内宿三澤屋",
@@ -739,7 +774,8 @@ restaurants_data = [
     budget: "1200〜2000円",
     latitude: 37.3030, longitude: 139.8519,
     situation_tags: [ "ランチ向け", "子連れOK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Japanese_Soba_Noodles_Tsuta.jpg"
   },
   {
     name: "会津ワイナリー レストラン",
@@ -751,7 +787,8 @@ restaurants_data = [
     budget: "2000〜4000円",
     latitude: 37.4800, longitude: 139.9100,
     situation_tags: [ "デートに" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/1/15/Salad_at_French_restaurant_in_Tokyo.jpg"
   },
   {
     name: "中国料理 龍鳳",
@@ -763,7 +800,8 @@ restaurants_data = [
     budget: "1000〜2500円",
     latitude: 37.4900, longitude: 139.9350,
     situation_tags: [ "ランチ向け", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Chinese_food_restaurant_SAIMENDO_03d.jpg"
   },
   {
     name: "猪苗代湖畔カフェ 天鏡",
@@ -775,7 +813,8 @@ restaurants_data = [
     budget: "500〜1000円",
     latitude: 37.4800, longitude: 140.1000,
     situation_tags: [ "子連れOK", "デートに" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Cafe_Muji_Shinjuku_Store_Interior_2013.jpg"
   },
   {
     name: "馬刺し・郷土料理 酔心",
@@ -787,7 +826,8 @@ restaurants_data = [
     budget: "3000〜5000円",
     latitude: 37.4950, longitude: 139.9280,
     situation_tags: [ "デートに", "個室あり" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg"
   },
 
   # いわきエリア（3件）
@@ -801,7 +841,8 @@ restaurants_data = [
     budget: "1500〜3000円",
     latitude: 37.0600, longitude: 140.8900,
     situation_tags: [ "子連れOK", "ランチ向け", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg"
   },
   {
     name: "湯本温泉 割烹旅館 松葉",
@@ -813,7 +854,8 @@ restaurants_data = [
     budget: "5000〜10000円",
     latitude: 37.0492, longitude: 140.9436,
     situation_tags: [ "デートに", "個室あり" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg"
   },
   {
     name: "スパリゾートハワイアンズ バイキング",
@@ -825,7 +867,8 @@ restaurants_data = [
     budget: "2000〜3500円",
     latitude: 37.0383, longitude: 140.9397,
     situation_tags: [ "子連れOK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Spa_Resort_Hawaiians_Water_Park._A.JPG/960px-Spa_Resort_Hawaiians_Water_Park._A.JPG"
   },
 
   # 居酒屋（2件）
@@ -839,7 +882,8 @@ restaurants_data = [
     budget: "2500〜4000円",
     latitude: 37.7600, longitude: 140.4740,
     situation_tags: [ "デートに", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Quality_izakaya_in_Ebisu_5.jpg"
   },
   {
     name: "会津地酒と肴 本丸",
@@ -851,7 +895,8 @@ restaurants_data = [
     budget: "3000〜4500円",
     latitude: 37.4970, longitude: 139.9310,
     situation_tags: [ "デートに", "個室あり" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Quality_izakaya_in_Ebisu_5.jpg"
   },
 
   # ベーカリー（2件）
@@ -865,7 +910,8 @@ restaurants_data = [
     budget: "400〜1500円",
     latitude: 37.4010, longitude: 140.3860,
     situation_tags: [ "ランチ向け", "子連れOK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/93/Well_Bread_Artisan_Bakery%2C_High_Street_-_geograph.org.uk_-_4338261.jpg"
   },
   {
     name: "Pain de bois 土湯",
@@ -877,7 +923,8 @@ restaurants_data = [
     budget: "300〜1200円",
     latitude: 37.6910, longitude: 140.3330,
     situation_tags: [ "ランチ向け", "子連れOK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/93/Well_Bread_Artisan_Bakery%2C_High_Street_-_geograph.org.uk_-_4338261.jpg"
   },
 
   # カレー（2件）
@@ -891,7 +938,8 @@ restaurants_data = [
     budget: "800〜1800円",
     latitude: 37.7580, longitude: 140.4700,
     situation_tags: [ "ランチ向け", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/1/12/Spicy_Anda_Curry.jpg"
   },
   {
     name: "薬膳カレー 会津漢方堂",
@@ -903,7 +951,8 @@ restaurants_data = [
     budget: "900〜1500円",
     latitude: 37.4920, longitude: 139.9280,
     situation_tags: [ "ランチ向け", "子連れOK", "デートに" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/1/12/Spicy_Anda_Curry.jpg"
   },
 
   # 相双エリア（2件）
@@ -917,7 +966,8 @@ restaurants_data = [
     budget: "1000〜2500円",
     latitude: 37.8400, longitude: 140.9700,
     situation_tags: [ "ランチ向け", "子連れOK", "ひとり飯OK" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg"
   },
   {
     name: "相馬中村 うなぎ 川富",
@@ -929,7 +979,8 @@ restaurants_data = [
     budget: "3000〜5000円",
     latitude: 37.7999, longitude: 140.9246,
     situation_tags: [ "デートに", "ランチ向け" ],
-    source: "manual", status: "published"
+    source: "manual", status: "published",
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Breakfast_at_Tamahan_Ryokan%2C_Kyoto.jpg"
   }
 ]
 

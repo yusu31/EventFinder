@@ -11,6 +11,9 @@ type MunicipalityFeature = {
 }
 type GeoData = { type: 'FeatureCollection'; features: MunicipalityFeature[] }
 
+// モジュールレベルキャッシュ：コンポーネントがマウントされるたびに fetch しない
+let _geoCache: GeoData | null = null
+
 const REGIONS = [
   { id: 'kenpo',      name: '県北',      municipalities: ['福島市', '二本松市', '伊達市', '本宮市', '桑折町', '国見町', '川俣町', '大玉村'] },
   { id: 'koriyama',   name: '郡山・田村', municipalities: ['郡山市', '田村市', '三春町', '小野町', '平田村'] },
@@ -52,7 +55,11 @@ export default function AreaSelectMap({
   const [hoveredMuni, setHoveredMuni] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch('/fukushima.geojson').then(r => r.json()).then(setGeoData)
+    if (_geoCache) { setGeoData(_geoCache); return }
+    fetch('/fukushima.geojson').then(r => r.json()).then((data: GeoData) => {
+      _geoCache = data
+      setGeoData(data)
+    })
   }, [])
 
   const getRegion = useCallback((name: string) => MUNI_TO_REGION.get(name), [])
@@ -71,6 +78,17 @@ export default function AreaSelectMap({
     if (isHovered)               return MAP_COLOR.hover
     return MAP_COLOR.default
   }, [selectedMunicipalities, selectedRegion, hoveredMuni, getRegion])
+
+  // GeoJSON パスを一括メモ化（ホバーのたびに再計算しない）
+  const pathByCode = useMemo(() => {
+    if (!geoData) return {} as Record<string, string>
+    const map: Record<string, string> = {}
+    geoData.features.forEach((feature) => {
+      const code = feature.properties.N03_007 ?? feature.properties.N03_004 ?? ''
+      map[code] = coordsToPath(feature.geometry.coordinates)
+    })
+    return map
+  }, [geoData])
 
   const regionMunicipalities = useMemo(() => {
     if (!selectedRegion) return []
@@ -110,7 +128,7 @@ export default function AreaSelectMap({
             return (
               <path
                 key={code}
-                d={coordsToPath(feature.geometry.coordinates)}
+                d={pathByCode[code] ?? ''}
                 fill={getFill(name)}
                 stroke="#ffffff"
                 strokeWidth={1.2}

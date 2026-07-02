@@ -93,7 +93,7 @@ function Pagination({ page, totalPages, onChange }: { page: number; totalPages: 
 // ─── グリッドアニメーション設定 ────────────────────────────────────
 const gridVariants = {
   hidden: {},
-  show:   { transition: { staggerChildren: 0.05 } },
+  show:   { transition: { staggerChildren: 0.02 } },
 }
 const cardVariants = {
   hidden: { opacity: 0, y: 18, scale: 0.97 },

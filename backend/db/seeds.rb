@@ -993,33 +993,49 @@ end
 puts "✅ グルメシードデータ投入完了: #{Restaurant.count}件のレストランが登録されました"
 
 # テストユーザー（ローカル開発用）
-test_user = User.find_or_initialize_by(email: '2.fortschritt@gmail.com')
-if test_user.new_record?
-  test_user.assign_attributes(
-    password: 'password123',
-    password_confirmation: 'password123',
-    name: 'Yusu',
-    uid: '2.fortschritt@gmail.com'
-  )
-  test_user.save!
-  puts "✅ テストユーザー作成: #{test_user.email}"
+# ENV[TEST_USER_EMAIL] / ENV[TEST_USER_PASSWORD] から読み込む（backend/.env に設定）
+test_user_email = ENV["TEST_USER_EMAIL"]
+test_user_password = ENV["TEST_USER_PASSWORD"]
+
+if test_user_email.present? && test_user_password.present?
+  test_user = User.find_or_initialize_by(email: test_user_email)
+  if test_user.new_record?
+    test_user.assign_attributes(
+      password: test_user_password,
+      password_confirmation: test_user_password,
+      name: "Yusu",
+      uid: test_user_email
+    )
+    test_user.save!
+    puts "✅ テストユーザー作成: #{test_user.email}"
+  else
+    puts "ℹ️  テストユーザーは既に存在します: #{test_user.email}"
+  end
 else
-  puts "ℹ️  テストユーザーは既に存在します: #{test_user.email}"
+  puts "ℹ️  TEST_USER_EMAIL / TEST_USER_PASSWORD が未設定のため、テストユーザー作成をスキップしました"
 end
 
 # Adminユーザー（ローカル開発用）
-admin_user = User.find_or_initialize_by(email: '3.fortschritt@gmail.com')
-if admin_user.new_record?
-  admin_user.assign_attributes(
-    password: 'adminpass123',
-    password_confirmation: 'adminpass123',
-    name: 'Admin',
-    uid: '3.fortschritt@gmail.com',
-    role: 'admin'
-  )
-  admin_user.save!
-  puts "✅ Adminユーザー作成: #{admin_user.email}"
+# ENV[ADMIN_EMAIL] / ENV[ADMIN_PASSWORD] から読み込む（backend/.env に設定）
+admin_email = ENV["ADMIN_EMAIL"]
+admin_password = ENV["ADMIN_PASSWORD"]
+
+if admin_email.present? && admin_password.present?
+  admin_user = User.find_or_initialize_by(email: admin_email)
+  if admin_user.new_record?
+    admin_user.assign_attributes(
+      password: admin_password,
+      password_confirmation: admin_password,
+      name: "Admin",
+      uid: admin_email,
+      role: "admin"
+    )
+    admin_user.save!
+    puts "✅ Adminユーザー作成: #{admin_user.email}"
+  else
+    admin_user.update!(role: "admin")
+    puts "ℹ️  Adminユーザーは既に存在します（role更新済み）: #{admin_user.email}"
+  end
 else
-  admin_user.update!(role: 'admin')
-  puts "ℹ️  Adminユーザーは既に存在します（role更新済み）: #{admin_user.email}"
+  puts "ℹ️  ADMIN_EMAIL / ADMIN_PASSWORD が未設定のため、Adminユーザー作成をスキップしました"
 end

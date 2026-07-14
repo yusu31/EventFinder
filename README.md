@@ -1,5 +1,19 @@
 # Roami — 福島おでかけ・イベント発見アプリ
 
+## ローカルで開く
+
+```bash
+git clone https://github.com/yusu31/ScheduleManagement.git
+cd ScheduleManagement
+cp .env.example .env && cp backend/.env.example backend/.env
+# .env / backend/.env に API キー等を入力してから
+./start.sh
+```
+
+起動後は [http://localhost:3000](http://localhost:3000) を開いてください（バックエンド API は `http://localhost:8080`）。
+
+---
+
 RaiseTech の最終課題として作成した、福島県の個人予定管理と地域イベント発見を一つにまとめた Web アプリです。  
 地域イベントの検索・カレンダー管理に加え、観光スポット・グルメ情報の閲覧、AI チャットによるおでかけ提案など、  
 「旅の前から旅の後まで」をサポートします。
